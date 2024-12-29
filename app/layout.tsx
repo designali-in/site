@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Ali Imam',
+    template: '%s | Ali Imam',
   },
   description: 'Frontend developer, optimist, community builder.',
 };
@@ -42,7 +42,7 @@ export default function RootLayout({
 
 function Footer() {
   const links = [
-    { name: '@leerob', url: 'https://x.com/leeerob' },
+    { name: '@aliimam', url: 'https://x.com/leeerob' },
     { name: 'youtube', url: 'https://www.youtube.com/@leerob' },
     { name: 'linkedin', url: 'https://www.linkedin.com/in/leeerob' },
     { name: 'github', url: 'https://github.com/leerob' },
